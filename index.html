@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Noumane JAFAIS</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <!--<figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Noumane JAFAIS" width="80">
+        </figure>
+      -->
+
+        <div class="info-content">
+          <a href="index.html">
+            <h1 class="name" title="Noumane JAFAIS">Noumane JAFAIS</h1>
+          </a>
+
+          <p class="title">Étudiant BUT GEII</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Détails</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:njafais@gmail.com" class="contact-link">njafais@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Téléphone</p>
+
+              <a href="tel:+33782939313" class="contact-link">+33 7 82 93 93 13</a>
+            </div>
+
+          </li>
+          <!--
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">June 23, 1982</time>
+            </div>
+
+          </li>-->
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Localisation</p>
+
+              <address>Paris, France</address>
+            </div>
+
+          </li>
+
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <!--<li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+        -->
+          <li class="social-item">
+            <a href="https://linkedin.com/in/noumanejafais" target="_blank" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>Accueil</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>CV</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Mes Projets</button>
+          </li>
+        </ul>
+      </nav>
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="accueil  active" data-page="accueil">
+        <header>
+          <h2 class="h2 article-title">Bienvenue sur mon Portfolio</h2>
+        </header>
+
+        <section class="about-text">
+          <div class="div home__container container grid">
+            <!--<img src="/img/gif.gif" alt="" class="home__img">-->
+            <p class="home__description">
+              <!--Je suis étudiant en <b>Bachlor Universitaire et Technologique</b> (BUT) en Génie 
+              Electrique et Informatique Industrielle spécialisé <b>Systèmes Embarqués</b> à 
+              l'Université Sorbonne Paris Nord. Je suis passionné par les nouvelles technologies et 
+              l'électronique embarquée. Je recherche un stage afin d'acquérir de nouvelles expériences 
+              professionnelles et d'évoluer dans ces domaines.
+              -->
+
+              Je suis étudiant de l'Université Sorbonne Paris Nord à Villetaneuse en <b>Génie Electrique
+              et Informatique Industriel</b> (BUT GEII) spécialisé dans l'Electronique et <b>Systèmes
+              Embarqués</b> (ESE). <!--Ce portfolio a pour objectif de vous partager ma passion pour la technique-->
+              Je suis passionné par les nouvelles technologies et 
+              l'électronique embarquée. Je recherche un stage afin d'acquérir de nouvelles expériences 
+              professionnelles et d'évoluer dans ces domaines.
+              Ce portfolio est alimenté par les projets que j'ai pu réaliser.
+            </p>
+            <img src="/img/gif.gif" alt="" class="home__img">
+          </div>
+        </section>
+
+
+        <!--
+          - service
+        --><br><br>
+        <div class="div_pdf">
+          <button class="pdf" data-nav-link>Mes Projets</button>
+      </div>
+      <!--
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-ampoule.svg" alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+
+                <p class="service-item-text">
+                  The most modern and high-quality design made at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile apps</h4>
+
+                <p class="service-item-text">
+                  Professional development of applications for iOS and Android.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Photography</h4>
+
+                <p class="service-item-text">
+                  I make high-quality photos of any category at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+
+        </section>-->
+
+
+
+
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+          </section>
+        </div>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="cv" data-page="cv">
+
+        <header>
+          <h2 class="h2 article-title">CV</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Expérience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Stagiaire Électronicien - LUMENIA</h4>
+
+              <span>Avril 2023 — Juin 2023</span>
+
+              <p class="timeline-text">
+                - Réalisation d'un prototype de masque de photobiomodulation avec LED intégrées utilisant une carte de
+                développement dotée d'un microcontrôleur
+                <br>- Programmation de la carte en langage C
+                <br>- Routage, montage et soudure de la carte électronique
+                <br>- Programmation d'un Interface Homme Machine
+              </p>
+
+            </li>
+
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Formation</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">BUT GEII - Université Sorbonne Paris Nord</h4>
+              <span>2021 — 2024</span>
+
+              <p class="timeline-text">
+                Parcours ESE (Électronique et Systèmes Embarqués)
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Baccalauréat Scientifique - Lycée Marcel Cachin - Saint-Ouen</h4>
+
+              <span>2021</span>
+
+              <p class="timeline-text">
+                Spécialité Mathématique et Science de l'ingénieur<br>Mention Assez Bien
+              </p>
+
+            </li>
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">Mes Compétences</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Travail d'équipe</h5>
+              </div>
+            </li>
+
+            <li class="skills-item">
+
+              <!--<div class="title-wrapper">
+                <h5 class="h5">Graphic design</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+            -->
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Autonomie</h5>
+              </div>
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Organisation</h5>
+              </div>
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Sens de responsabilité</h5>
+              </div>
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Informatique</h5>
+
+              </div>
+              <p class="timeline-text">C / C++<br>
+                Python<br>
+                VHDL / Assembleur (ASM)<br>
+                HTML / CSS<br>
+                Linux
+              </p>
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Logiciel</h5>
+
+              </div>
+              <p class="timeline-text">Word, Excel, PowerPoint<br>
+                MPLAB X, LabView, VS Code, Quartus, Eagle AutoDesk<br>
+                Premiere Pro, Photoshop
+              </p>
+              
+              
+            </li>
+
+          </ul>
+
+        </section>
+        <div class="div_pdf">
+          <button class="pdf"><a href="/pdf/CV_Noumane_JAFAIS.pdf" style="text-decoration:none">Télécharger le
+              CV</a></button>
+        </div>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="mes projets" data-page="mes projets">
+
+        <header>
+          <h2 class="h2 article-title">Mes Projets</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <!--<li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>-->
+          </ul>
+
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Selectionner</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Electronique</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Informatique</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Automatique</button>
+              </li>
+
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="projet_alarme.html">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./img/alarme.webp" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Alarme</h3>
+
+                <p class="project-category">2021</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="projet_velo.html">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./img/velo.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Vélo électrique</h3>
+
+                <p class="project-category">2022</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="projet_robot.html">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./img/robot.png" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Robot</h3>
+
+                <p class="project-category">2022</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="projet_ags.html">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./img/ags.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">AGS</h3>
+
+                <p class="project-category">2022</p>
+
+              </a>
+            </li>
+<!--
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="projet_se.html">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./img/se.webp" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Système embarqué</h3>
+
+                <p class="project-category">2022</p>
+
+              </a>
+            </li>
+          -->
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="projet_regulateur.html">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./img/regulateur.jpg" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Régulateur de vitesse</h3>
+
+                <p class="project-category">2023</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="projet_iot.html">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./img/iot.gif" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">IOT</h3>
+
+                <p class="project-category">2023</p>
+
+              </a>
+            </li>
+
+            <!--<li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Task Manager</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>-->
+
+          </ul>
+
+        </section>
+
+      </article>
+    </div>
+
+  </main>
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
